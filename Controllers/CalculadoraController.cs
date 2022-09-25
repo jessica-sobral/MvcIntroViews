@@ -18,19 +18,15 @@ public class CalculadoraController : Controller
         switch (operacao)
         {
             case "Soma":
-                ViewBag.Sinal = "+";
                 ViewBag.Resultado = n1 + n2;
                 break;
             case "Subtração":
-                ViewBag.Sinal = "-";
                 ViewBag.Resultado = n1 - n2;
                 break;
             case "Multiplicação":
-                ViewBag.Sinal = "*";
                 ViewBag.Resultado = n1 * n2;
                 break;
             case "Divisão":
-                ViewBag.Sinal = "/";
                 ViewBag.Resultado = n1 / n2;
                 break;
         }

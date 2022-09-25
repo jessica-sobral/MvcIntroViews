@@ -3,18 +3,18 @@
 }
 
 <h1>Resultado da @ViewBag.Operacao</h1>
-@switch (@ViewBag.Sinal)
+@switch (@ViewBag.Operacao)
 {
-    case "+":
+    case "Soma":
         <p>A soma de @ViewBag.N1 + @ViewBag.N2 é igual a @ViewBag.Resultado</p>
         break;
-    case "-":
+    case "Subtração":
         <p>A subtração de @ViewBag.N1 - @ViewBag.N2 é igual a @ViewBag.Resultado</p>
         break;
-    case "*":
+    case "Multiplicação":
         <p>A multiplicação de @ViewBag.N1 * @ViewBag.N2 é igual a @ViewBag.Resultado</p>
         break;
-    case "/":
+    case "Divisão":
         <p>A divisão de @ViewBag.N1 / @ViewBag.N2 é igual a @ViewBag.Resultado</p>
         break;
 }
