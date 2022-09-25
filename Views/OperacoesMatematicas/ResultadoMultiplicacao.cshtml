@@ -1,10 +1,7 @@
 @{
     ViewData["Title"] = "Resultado da Multiplicação";
-    ViewData["N1"];
-    ViewData["N2"];
-    ViewData["Resultado"];
 }
 
 <h1>Resultado da Multiplicação</h1>
 
-<p>A multiplicação de @ViewData.N1 + @ViewData.N2 é igual a @ViewData.Resultado</p>
+<p>A multiplicação de @ViewData["N1"] * @ViewData["N2"] é igual a @ViewData["Resultado"]</p>

@@ -18,7 +18,7 @@ public class OperacoesMatematicasController : Controller
         return View();
     }
 
-    public IActionResult Multiplicacao()
+    public IActionResult Multiplicar()
     {
         return View();
     }
